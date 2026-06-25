@@ -1,3 +1,5 @@
+n=int(input("数字を教えろ！"))
+
 def add(x):
     return x ** 2
 
@@ -5,6 +7,5 @@ def add(x):
 #因数名：ｘ　データ型：int
 #戻り値：xを２乗した値
 
-result = add(5)
-print(result)
+print(add(n))
 

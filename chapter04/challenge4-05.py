@@ -1,13 +1,13 @@
 #文字列型の引数をfloat型に変換した数を戻り値にする関数と、
 #その関数を使用した際に発生した例外処理
 
-def float(a):
+def con(a):
     try:
         return float(a)
-    except (ValueError):
+    except ValueError:
         print("数字ではないので処理を中止します")
 
-f = float("")
+f = con("55.0")
 print(f)
 
 #関数名: float
